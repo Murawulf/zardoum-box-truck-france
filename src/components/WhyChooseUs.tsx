@@ -50,39 +50,39 @@ const WhyChooseUs = () => {
         </div>
       </div>
       
-      {/* Add a gallery of moving images */}
+      {/* Image gallery of moving service images */}
       <div className="container mx-auto px-4 md:px-6 mt-16">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           <div className="grid gap-4">
             <div>
-              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1600585154363-67eb9e2e2099?q=80&w=2070" alt="Moving truck" />
+              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1586864387789-628af9feed72?q=80&w=2070" alt="Box truck for moving" />
             </div>
             <div>
-              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1603796846097-bee99e4a601f?q=80&w=2074" alt="Moving boxes" />
-            </div>
-          </div>
-          <div className="grid gap-4">
-            <div>
-              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1582366796798-f978125267dd?q=80&w=2071" alt="Furniture assembly" />
-            </div>
-            <div>
-              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=80&w=2070" alt="Moving service" />
+              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&w=2070" alt="Furniture assembly" />
             </div>
           </div>
           <div className="grid gap-4">
             <div>
-              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1606170033648-5d55a3edf615?q=80&w=2070" alt="Box truck" />
+              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?q=80&w=2070" alt="Furniture disassembly" />
             </div>
             <div>
-              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1531829039722-d3fb3e705a4b?q=80&w=2034" alt="Packing service" />
+              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?q=80&w=2070" alt="Moving furniture" />
             </div>
           </div>
           <div className="grid gap-4">
             <div>
-              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1600607688066-89c9807e2147?q=80&w=2070" alt="Professional mover" />
+              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=2070" alt="Moving service" />
             </div>
             <div>
-              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?q=80&w=2070" alt="Moving day" />
+              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1563453392212-326f5e854473?q=80&w=2070" alt="Furniture installation" />
+            </div>
+          </div>
+          <div className="grid gap-4">
+            <div>
+              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1534398079543-7ae6d016b86a?q=80&w=2070" alt="Box truck loading" />
+            </div>
+            <div>
+              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1603794067602-9feaa4f70e0c?q=80&w=2070" alt="Moving day" />
             </div>
           </div>
         </div>

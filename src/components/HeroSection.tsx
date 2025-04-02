@@ -14,15 +14,15 @@ const HeroSection = () => {
   const { translate } = useLanguage();
 
   const movingImages = [
-    "https://images.unsplash.com/photo-1600585152220-90363fe7e115?q=80&w=2070",
-    "https://images.unsplash.com/photo-1600711724564-526eda91ac29?q=80&w=2070",
-    "https://images.unsplash.com/photo-1591004344301-323bd0faf852?q=80&w=2070",
-    "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070"
+    "https://images.unsplash.com/photo-1586864387789-628af9feed72?q=80&w=2070",  // Box truck
+    "https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&w=2070",  // Furniture assembly
+    "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?q=80&w=2070",  // Moving boxes and furniture
+    "https://images.unsplash.com/photo-1600585154526-990dced4db0d?q=80&w=2070"   // Person moving furniture
   ];
 
   return (
     <section className="relative bg-gradient-to-r from-blue-600 to-blue-800 py-20 text-white overflow-hidden">
-      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1600585152220-90363fe7e115?q=80&w=2070')] bg-cover bg-center opacity-20"></div>
+      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1586864387789-628af9feed72?q=80&w=2070')] bg-cover bg-center opacity-20"></div>
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div>

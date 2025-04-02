@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { User, Award, ThumbsUp } from 'lucide-react';
+import { User, Award, ThumbsUp, Wrench } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 const AboutSection = () => {
@@ -32,11 +32,20 @@ const AboutSection = () => {
             <p className="text-lg text-gray-600">
               {translate('about.equipment')}
             </p>
+            
+            {/* Add furniture assembly/disassembly image */}
+            <div className="mt-6 rounded-lg overflow-hidden shadow-md">
+              <img 
+                src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&w=2070" 
+                alt="Furniture assembly" 
+                className="w-full h-auto"
+              />
+            </div>
           </div>
           <div className="md:w-1/2 order-1 md:order-2">
             <div className="relative h-80 md:h-96 w-full rounded-xl overflow-hidden shadow-xl">
               <div className="absolute inset-0 bg-gradient-to-tr from-blue-700 to-blue-500 opacity-80 z-10"></div>
-              <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1615900119312-2acd3a71f3aa?q=80&w=1887')] bg-cover bg-center"></div>
+              <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1586864387789-628af9feed72?q=80&w=2070')] bg-cover bg-center"></div>
               <div className="absolute inset-0 flex items-center justify-center z-20">
                 <div className="text-white text-center p-6">
                   <h3 className="text-3xl font-bold mb-2">Anwar Zardoum</h3>
@@ -46,6 +55,15 @@ const AboutSection = () => {
                   </div>
                 </div>
               </div>
+            </div>
+            
+            {/* Additional box truck image */}
+            <div className="mt-6 rounded-lg overflow-hidden shadow-md">
+              <img 
+                src="https://images.unsplash.com/photo-1534398079543-7ae6d016b86a?q=80&w=2070" 
+                alt="Box truck for moving" 
+                className="w-full h-48 object-cover"
+              />
             </div>
           </div>
         </div>
