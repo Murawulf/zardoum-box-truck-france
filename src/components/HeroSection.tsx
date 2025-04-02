@@ -1,8 +1,25 @@
 
 import React from 'react';
-import { Phone, Truck, PackageCheck } from 'lucide-react';
+import { Phone, Truck, PackageOpen } from 'lucide-react';
+import { useLanguage } from '../contexts/LanguageContext';
+import { 
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious
+} from "@/components/ui/carousel";
 
 const HeroSection = () => {
+  const { translate } = useLanguage();
+
+  const movingImages = [
+    "https://images.unsplash.com/photo-1600585152220-90363fe7e115?q=80&w=2070",
+    "https://images.unsplash.com/photo-1600711724564-526eda91ac29?q=80&w=2070",
+    "https://images.unsplash.com/photo-1591004344301-323bd0faf852?q=80&w=2070",
+    "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070"
+  ];
+
   return (
     <section className="relative bg-gradient-to-r from-blue-600 to-blue-800 py-20 text-white overflow-hidden">
       <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1600585152220-90363fe7e115?q=80&w=2070')] bg-cover bg-center opacity-20"></div>
@@ -10,10 +27,10 @@ const HeroSection = () => {
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div>
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              Service de Déménagement Professionnel à Al Kalaa, Tunisie
+              {translate('hero.title')}
             </h1>
             <p className="text-xl md:text-2xl mb-8">
-              Montage, démontage et déménagement de vos meubles par un professionnel avec camion Nissan sur toute la Tunisie
+              {translate('hero.description')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a 
@@ -21,26 +38,37 @@ const HeroSection = () => {
                 className="flex items-center justify-center gap-2 px-6 py-3 bg-orange-500 text-white font-medium rounded-lg hover:bg-orange-600 transition-colors"
               >
                 <Phone className="w-5 h-5" />
-                Appeler maintenant
+                {translate('hero.callToAction')}
               </a>
               <a 
                 href="#services" 
                 className="flex items-center justify-center gap-2 px-6 py-3 bg-white text-blue-700 font-medium rounded-lg hover:bg-gray-100 transition-colors"
               >
-                <PackageCheck className="w-5 h-5" />
-                Nos services
+                <PackageOpen className="w-5 h-5" />
+                {translate('hero.services')}
               </a>
             </div>
           </div>
-          <div className="hidden md:flex justify-end relative">
-            <div className="relative w-full max-w-md">
-              <div className="absolute inset-0 bg-blue-900 rounded-lg opacity-20"></div>
-              <img 
-                src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070" 
-                alt="Camion de déménagement" 
-                className="relative z-10 rounded-lg shadow-xl w-full h-auto object-cover"
-              />
-            </div>
+          <div className="hidden md:block">
+            <Carousel className="w-full max-w-md mx-auto">
+              <CarouselContent>
+                {movingImages.map((src, index) => (
+                  <CarouselItem key={index}>
+                    <div className="p-1">
+                      <div className="relative overflow-hidden rounded-lg shadow-xl">
+                        <img 
+                          src={src} 
+                          alt={`Moving service ${index + 1}`} 
+                          className="w-full h-72 object-cover"
+                        />
+                      </div>
+                    </div>
+                  </CarouselItem>
+                ))}
+              </CarouselContent>
+              <CarouselPrevious className="left-2" />
+              <CarouselNext className="right-2" />
+            </Carousel>
             <div className="absolute -bottom-10 -right-10 z-0 opacity-20">
               <Truck className="w-40 h-40 text-white" />
             </div>

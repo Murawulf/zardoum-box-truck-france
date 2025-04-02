@@ -1,8 +1,10 @@
 
 import React from 'react';
 import { Phone, MapPin } from 'lucide-react';
+import { useLanguage } from '../contexts/LanguageContext';
 
 const Footer = () => {
+  const { translate } = useLanguage();
   const currentYear = new Date().getFullYear();
   
   return (
@@ -11,15 +13,15 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <h2 className="text-xl font-bold">Anwar Zardoum</h2>
-            <p className="text-gray-400 mt-1">Service de déménagement professionnel</p>
+            <p className="text-gray-400 mt-1">{translate('footer.professionalService')}</p>
             <div className="flex items-center mt-2 text-gray-400">
               <MapPin className="w-4 h-4 mr-1" />
-              <span>Al Kalaa, Tunisie</span>
+              <span>{translate('footer.location')}</span>
             </div>
           </div>
           
           <div className="text-center md:text-right">
-            <p className="text-gray-400">© {currentYear} Anwar Zardoum. Tous droits réservés.</p>
+            <p className="text-gray-400">© {currentYear} Anwar Zardoum. {translate('footer.rights')}</p>
             <div className="mt-2">
               <a href="tel:+21698508600" className="text-blue-400 hover:text-blue-300 transition-colors flex items-center justify-center md:justify-end">
                 <Phone className="w-4 h-4 mr-1" />
