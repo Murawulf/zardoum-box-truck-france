@@ -1,4 +1,3 @@
-
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 
 // Define types for our languages and translations
@@ -96,6 +95,48 @@ const translations = {
     ar: 'تجميع وتركيب أثاثك في عنوانك الجديد، بسرعة وخبرة.'
   },
   
+  // About Section
+  'about.title': {
+    fr: 'À Propos d\'Anwar Zardoum',
+    en: 'About Anwar Zardoum',
+    ar: 'عن أنور زردوم'
+  },
+  'about.description': {
+    fr: 'Fort de plusieurs années d\'expérience dans le déménagement et le montage de meubles, je propose un service personnalisé et professionnel pour répondre à tous vos besoins de déménagement en Tunisie.',
+    en: 'With several years of experience in moving and furniture assembly, I offer a personalized and professional service to meet all your moving needs in Tunisia.',
+    ar: 'مع سنوات عديدة من الخبرة في النقل وتجميع الأثاث، أقدم خدمة شخصية واحترافية لتلبية جميع احتياجات النقل الخاصة بك في تونس.'
+  },
+  'about.professional': {
+    fr: 'Professionnel',
+    en: 'Professional',
+    ar: 'محترف'
+  },
+  'about.experienced': {
+    fr: 'Expérimenté',
+    en: 'Experienced',
+    ar: 'ذو خبرة'
+  },
+  'about.reliable': {
+    fr: 'Fiable',
+    en: 'Reliable',
+    ar: 'موثوق'
+  },
+  'about.equipment': {
+    fr: 'Équipé d\'un camion Nissan adapté pour le transport de mobilier, je garantis un service sûr et efficace pour tous vos besoins de déménagement, qu\'il s\'agisse d\'un simple meuble ou d\'un appartement complet.',
+    en: 'Equipped with a Nissan truck suitable for furniture transportation, I guarantee a safe and efficient service for all your moving needs, whether it\'s a single piece of furniture or an entire apartment.',
+    ar: 'مجهز بشاحنة نيسان مناسبة لنقل الأثاث، أضمن خدمة آمنة وفعالة لجميع احتياجات النقل الخاصة بك، سواء كانت قطعة أثاث واحدة أو شقة كاملة.'
+  },
+  'about.specialist': {
+    fr: 'Spécialiste du déménagement',
+    en: 'Moving specialist',
+    ar: 'متخصص في النقل'
+  },
+  'about.truck': {
+    fr: 'Équipé d\'un camion Nissan',
+    en: 'Equipped with a Nissan truck',
+    ar: 'مجهز بشاحنة نيسان'
+  },
+  
   // Why Choose Us
   'whyChooseUs.title': {
     fr: 'Pourquoi Me Choisir',
@@ -146,6 +187,68 @@ const translations = {
     fr: 'Je propose des tarifs abordables sans compromettre la qualité du service offert.',
     en: 'I offer affordable rates without compromising the quality of service provided.',
     ar: 'أقدم أسعارًا معقولة دون المساس بجودة الخدمة المقدمة.'
+  },
+  
+  // Contact Section
+  'contact.title': {
+    fr: 'Contactez-Nous',
+    en: 'Contact Us',
+    ar: 'اتصل بنا'
+  },
+  'contact.description': {
+    fr: 'Besoin d\'un devis ou d\'informations supplémentaires ? N\'hésitez pas à nous contacter.',
+    en: 'Need a quote or additional information? Don\'t hesitate to contact us.',
+    ar: 'بحاجة إلى عرض سعر أو معلومات إضافية؟ لا تتردد في الاتصال بنا.'
+  },
+  'contact.info': {
+    fr: 'Informations de Contact',
+    en: 'Contact Information',
+    ar: 'معلومات الاتصال'
+  },
+  'contact.phone': {
+    fr: 'Téléphone',
+    en: 'Phone',
+    ar: 'الهاتف'
+  },
+  'contact.callNow': {
+    fr: 'Appeler maintenant',
+    en: 'Call now',
+    ar: 'اتصل الآن'
+  },
+  'contact.hours': {
+    fr: 'Horaires',
+    en: 'Hours',
+    ar: 'ساعات العمل'
+  },
+  'contact.weekdays': {
+    fr: 'Lundi - Samedi: 8h - 19h',
+    en: 'Monday - Saturday: 8am - 7pm',
+    ar: 'الاثنين - السبت: 8 ص - 7 م'
+  },
+  'contact.sunday': {
+    fr: 'Dimanche: Sur rendez-vous',
+    en: 'Sunday: By appointment',
+    ar: 'الأحد: بموعد مسبق'
+  },
+  'contact.serviceArea': {
+    fr: 'Zone de Service',
+    en: 'Service Area',
+    ar: 'منطقة الخدمة'
+  },
+  'contact.coverage': {
+    fr: 'Toute la Tunisie',
+    en: 'All of Tunisia',
+    ar: 'جميع أنحاء تونس'
+  },
+  'contact.quote': {
+    fr: 'Demander un Devis',
+    en: 'Request a Quote',
+    ar: 'طلب عرض سعر'
+  },
+  'contact.quoteDescription': {
+    fr: 'Pour un devis personnalisé, appelez-nous directement ou laissez-nous vos coordonnées et nous vous contacterons dans les plus brefs délais.',
+    en: 'For a personalized quote, call us directly or leave us your contact information and we will contact you as soon as possible.',
+    ar: 'للحصول على عرض سعر مخصص، اتصل بنا مباشرة أو اترك لنا معلومات الاتصال الخاصة بك وسنتصل بك في أقرب وقت ممكن.'
   },
   
   // CTA Section
