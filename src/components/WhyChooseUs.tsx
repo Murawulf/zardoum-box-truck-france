@@ -50,7 +50,7 @@ const WhyChooseUs = () => {
         </div>
       </div>
       
-      {/* Image gallery of moving service images */}
+      {/* Updated image gallery of moving service images */}
       <div className="container mx-auto px-4 md:px-6 mt-16">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           <div className="grid gap-4">
@@ -63,7 +63,7 @@ const WhyChooseUs = () => {
           </div>
           <div className="grid gap-4">
             <div>
-              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?q=80&w=2070" alt="Furniture disassembly" />
+              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?q=80&w=2070" alt="Moving boxes and furniture" />
             </div>
             <div>
               <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?q=80&w=2070" alt="Moving furniture" />
@@ -71,18 +71,18 @@ const WhyChooseUs = () => {
           </div>
           <div className="grid gap-4">
             <div>
-              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=2070" alt="Moving service" />
+              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1534398079543-7ae6d016b86a?q=80&w=2070" alt="Box truck loading" />
             </div>
             <div>
-              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1563453392212-326f5e854473?q=80&w=2070" alt="Furniture installation" />
+              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1613553474179-e1eda3ea5734?q=80&w=2070" alt="Moving truck" />
             </div>
           </div>
           <div className="grid gap-4">
             <div>
-              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1534398079543-7ae6d016b86a?q=80&w=2070" alt="Box truck loading" />
+              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1603794067602-9feaa4f70e0c?q=80&w=2070" alt="Moving day" />
             </div>
             <div>
-              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1603794067602-9feaa4f70e0c?q=80&w=2070" alt="Moving day" />
+              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1547582304-f3dba6e370ac?q=80&w=2070" alt="Furniture disassembly" />
             </div>
           </div>
         </div>

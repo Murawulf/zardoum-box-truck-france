@@ -11,19 +11,19 @@ const ServicesSection = () => {
       icon: <PackageOpen className="w-12 h-12 text-blue-600" />,
       title: translate('services.disassembly.title'),
       description: translate('services.disassembly.description'),
-      image: "https://images.unsplash.com/photo-1547582304-f3dba6e370ac?q=80&w=2070"
+      image: "https://images.unsplash.com/photo-1547582304-f3dba6e370ac?q=80&w=2070"  // Furniture disassembly
     },
     {
       icon: <Truck className="w-12 h-12 text-blue-600" />,
       title: translate('services.moving.title'),
       description: translate('services.moving.description'),
-      image: "https://images.unsplash.com/photo-1613553474179-e1eda3ea5734?q=80&w=2070"
+      image: "https://images.unsplash.com/photo-1534398079543-7ae6d016b86a?q=80&w=2070"  // Box truck moving
     },
     {
       icon: <Wrench className="w-12 h-12 text-blue-600" />,
       title: translate('services.assembly.title'),
       description: translate('services.assembly.description'),
-      image: "https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&w=2070"
+      image: "https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&w=2070"  // Furniture assembly
     }
   ];
 

@@ -36,8 +36,8 @@ const AboutSection = () => {
             {/* Add furniture assembly/disassembly image */}
             <div className="mt-6 rounded-lg overflow-hidden shadow-md">
               <img 
-                src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&w=2070" 
-                alt="Furniture assembly" 
+                src="https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?q=80&w=2070" 
+                alt="Moving boxes and furniture" 
                 className="w-full h-auto"
               />
             </div>
@@ -60,8 +60,8 @@ const AboutSection = () => {
             {/* Additional box truck image */}
             <div className="mt-6 rounded-lg overflow-hidden shadow-md">
               <img 
-                src="https://images.unsplash.com/photo-1534398079543-7ae6d016b86a?q=80&w=2070" 
-                alt="Box truck for moving" 
+                src="https://images.unsplash.com/photo-1603794067602-9feaa4f70e0c?q=80&w=2070" 
+                alt="Moving day" 
                 className="w-full h-48 object-cover"
               />
             </div>

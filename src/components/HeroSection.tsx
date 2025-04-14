@@ -16,7 +16,8 @@ const HeroSection = () => {
   const movingImages = [
     "https://images.unsplash.com/photo-1586864387789-628af9feed72?q=80&w=2070",  // Box truck
     "https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&w=2070",  // Furniture assembly
-    "https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?q=80&w=2070",  // Moving boxes and furniture
+    "https://images.unsplash.com/photo-1534398079543-7ae6d016b86a?q=80&w=2070",  // Loading box truck
+    "https://images.unsplash.com/photo-1603794067602-9feaa4f70e0c?q=80&w=2070",  // Moving boxes and furniture
     "https://images.unsplash.com/photo-1600585154526-990dced4db0d?q=80&w=2070"   // Person moving furniture
   ];
 
