@@ -27,7 +27,7 @@ const Header = () => {
     <header className={`bg-white w-full py-4 shadow-sm sticky top-0 z-50 ${currentLanguage === 'ar' ? 'text-right' : ''}`}>
       <div className="container mx-auto flex justify-between items-center px-4 md:px-6">
         <div className="flex items-center">
-          <h1 className="text-xl font-bold text-blue-700">Anwar Zardoum</h1>
+          <h1 className="text-xl font-bold text-blue-700">Anwar Zardoum</h1>&nbsp;
           <span className="ml-2 text-sm text-gray-500">{translate('footer.location')}</span>
         </div>
         <div className="hidden md:flex items-center space-x-6">
