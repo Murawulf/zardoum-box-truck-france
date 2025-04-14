@@ -50,43 +50,8 @@ const WhyChooseUs = () => {
         </div>
       </div>
       
-      {/* Image gallery of moving service images */}
-      <div className="container mx-auto px-4 md:px-6 mt-16">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          <div className="grid gap-4">
-            <div>
-              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-crHhZlES310?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="White moving truck" />
-            </div>
-            <div>
-              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1584472135216-7177ff862540?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80" alt="TV wall mounting" />
-            </div>
-          </div>
-          <div className="grid gap-4">
-            <div>
-              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-6nIkztwmYMQ?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Delivery person with boxes" />
-            </div>
-            <div>
-              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1558458878-36020af67ea2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80" alt="Man moving boxes" />
-            </div>
-          </div>
-          <div className="grid gap-4">
-            <div>
-              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Furniture assembly" />
-            </div>
-            <div>
-              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-66NaCdBrkCs?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Brown cardboard boxes" />
-            </div>
-          </div>
-          <div className="grid gap-4">
-            <div>
-              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1579750083105-7e6c73597219?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Chandelier installation" />
-            </div>
-            <div>
-              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80" alt="People moving boxes" />
-            </div>
-          </div>
-        </div>
-      </div>
+
+ 
     </section>
   );
 };
