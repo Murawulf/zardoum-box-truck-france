@@ -33,7 +33,7 @@ const AboutSection = () => {
               {translate('about.equipment')}
             </p>
             
-            {/* Add furniture assembly/disassembly image */}
+            {/* Furniture assembly/disassembly image */}
             <div className="mt-6 rounded-lg overflow-hidden shadow-md">
               <img 
                 src="https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?q=80&w=2070" 
@@ -57,7 +57,7 @@ const AboutSection = () => {
               </div>
             </div>
             
-            {/* Additional box truck image */}
+            {/* Box truck image */}
             <div className="mt-6 rounded-lg overflow-hidden shadow-md">
               <img 
                 src="https://images.unsplash.com/photo-1603794067602-9feaa4f70e0c?q=80&w=2070" 

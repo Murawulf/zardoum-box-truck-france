@@ -50,7 +50,7 @@ const WhyChooseUs = () => {
         </div>
       </div>
       
-      {/* Updated image gallery of moving service images */}
+      {/* Image gallery of moving service images */}
       <div className="container mx-auto px-4 md:px-6 mt-16">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           <div className="grid gap-4">
@@ -74,7 +74,7 @@ const WhyChooseUs = () => {
               <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1534398079543-7ae6d016b86a?q=80&w=2070" alt="Box truck loading" />
             </div>
             <div>
-              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1613553474179-e1eda3ea5734?q=80&w=2070" alt="Moving truck" />
+              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1603696790373-1e342113b916?q=80&w=2070" alt="Furniture disassembly" />
             </div>
           </div>
           <div className="grid gap-4">
@@ -82,7 +82,7 @@ const WhyChooseUs = () => {
               <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1603794067602-9feaa4f70e0c?q=80&w=2070" alt="Moving day" />
             </div>
             <div>
-              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1547582304-f3dba6e370ac?q=80&w=2070" alt="Furniture disassembly" />
+              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1594749794737-e311e4a0a689?q=80&w=2070" alt="Moving boxes" />
             </div>
           </div>
         </div>
