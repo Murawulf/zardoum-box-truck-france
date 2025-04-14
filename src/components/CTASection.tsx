@@ -8,7 +8,7 @@ const CTASection = () => {
 
   return (
     <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-16 text-white relative overflow-hidden">
-      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-6nIkztwmYMQ?q=80&w=2070')] bg-cover bg-center opacity-20"></div>
+      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-6nIkztwmYMQ?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')] bg-cover bg-center opacity-20"></div>
       <div className="absolute -right-16 bottom-0 opacity-10">
         <Truck className="w-64 h-64 text-white" />
       </div>
