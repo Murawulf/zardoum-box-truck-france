@@ -14,16 +14,16 @@ const HeroSection = () => {
   const { translate } = useLanguage();
 
   const movingImages = [
-    "https://images.unsplash.com/photo-1586864387789-628af9feed72?q=80&w=2070",  // Box truck
+    "https://images.unsplash.com/photo-1581822261290-991b38693823?q=80&w=2070",  // Moving boxes in truck
     "https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&w=2070",  // Furniture assembly
-    "https://images.unsplash.com/photo-1534398079543-7ae6d016b86a?q=80&w=2070",  // Loading box truck
-    "https://images.unsplash.com/photo-1603794067602-9feaa4f70e0c?q=80&w=2070",  // Moving boxes and furniture
-    "https://images.unsplash.com/photo-1600585154526-990dced4db0d?q=80&w=2070"   // Person moving furniture
+    "https://images.unsplash.com/photo-1579750083105-7e6c73597219?q=80&w=2070",  // Chandelier installation
+    "https://images.unsplash.com/photo-1603696790373-1e342113b916?q=80&w=2070",  // Furniture disassembly
+    "https://images.unsplash.com/photo-1594749794737-e311e4a0a689?q=80&w=2070"   // Moving boxes
   ];
 
   return (
     <section className="relative bg-gradient-to-r from-blue-600 to-blue-800 py-20 text-white overflow-hidden">
-      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1586864387789-628af9feed72?q=80&w=2070')] bg-cover bg-center opacity-20"></div>
+      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1581822261290-991b38693823?q=80&w=2070')] bg-cover bg-center opacity-20"></div>
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div>
