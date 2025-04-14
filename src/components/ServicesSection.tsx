@@ -1,7 +1,11 @@
-
 import React from 'react';
 import { Truck, Wrench, PackageOpen } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
+
+// ✅ Import local images
+import s1 from '../components/s1.jpg';
+import s2 from '../components/s2.jpg';
+import s3 from '../components/s3.jpg';
 
 const ServicesSection = () => {
   const { translate } = useLanguage();
@@ -11,19 +15,19 @@ const ServicesSection = () => {
       icon: <PackageOpen className="w-12 h-12 text-blue-600" />,
       title: translate('services.disassembly.title'),
       description: translate('services.disassembly.description'),
-      image: "https://images.unsplash.com/photo-1600566752355-35792bedcfea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"  // Furniture disassembly
+      image: s1  // Local image
     },
     {
       icon: <Truck className="w-12 h-12 text-blue-600" />,
       title: translate('services.moving.title'),
       description: translate('services.moving.description'),
-      image: "https://images.unsplash.com/photo-6nIkztwmYMQ?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"  // Moving boxes in van
+      image: s2  // Local image
     },
     {
       icon: <Wrench className="w-12 h-12 text-blue-600" />,
       title: translate('services.assembly.title'),
       description: translate('services.assembly.description'),
-      image: "https://images.unsplash.com/photo-1579750083105-7e6c73597219?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"  // Chandelier installation
+      image: s3  // Local image
     }
   ];
 
