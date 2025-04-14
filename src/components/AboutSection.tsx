@@ -36,8 +36,8 @@ const AboutSection = () => {
             {/* Furniture assembly/disassembly image */}
             <div className="mt-6 rounded-lg overflow-hidden shadow-md">
               <img 
-                src="https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?q=80&w=2070" 
-                alt="Moving boxes and furniture" 
+                src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&w=2070" 
+                alt="Furniture assembly and installation" 
                 className="w-full h-auto"
               />
             </div>
@@ -45,7 +45,7 @@ const AboutSection = () => {
           <div className="md:w-1/2 order-1 md:order-2">
             <div className="relative h-80 md:h-96 w-full rounded-xl overflow-hidden shadow-xl">
               <div className="absolute inset-0 bg-gradient-to-tr from-blue-700 to-blue-500 opacity-80 z-10"></div>
-              <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1586864387789-628af9feed72?q=80&w=2070')] bg-cover bg-center"></div>
+              <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1603794067602-9feaa4f70e0c?q=80&w=2070')] bg-cover bg-center"></div>
               <div className="absolute inset-0 flex items-center justify-center z-20">
                 <div className="text-white text-center p-6">
                   <h3 className="text-3xl font-bold mb-2">Anwar Zardoum</h3>
@@ -60,8 +60,8 @@ const AboutSection = () => {
             {/* Box truck image */}
             <div className="mt-6 rounded-lg overflow-hidden shadow-md">
               <img 
-                src="https://images.unsplash.com/photo-1603794067602-9feaa4f70e0c?q=80&w=2070" 
-                alt="Moving day" 
+                src="https://images.unsplash.com/photo-crHhZlES310?q=80&w=2070" 
+                alt="Moving truck" 
                 className="w-full h-48 object-cover"
               />
             </div>

@@ -55,34 +55,34 @@ const WhyChooseUs = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           <div className="grid gap-4">
             <div>
-              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1586864387789-628af9feed72?q=80&w=2070" alt="Box truck for moving" />
+              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-crHhZlES310?q=80&w=2070" alt="White moving truck" />
             </div>
+            <div>
+              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1584472135216-7177ff862540?q=80&w=2069" alt="TV wall mounting" />
+            </div>
+          </div>
+          <div className="grid gap-4">
+            <div>
+              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-6nIkztwmYMQ?q=80&w=2070" alt="Delivery person with boxes" />
+            </div>
+            <div>
+              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1558458878-36020af67ea2?q=80&w=2069" alt="Man moving boxes" />
+            </div>
+          </div>
+          <div className="grid gap-4">
             <div>
               <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&w=2070" alt="Furniture assembly" />
             </div>
-          </div>
-          <div className="grid gap-4">
             <div>
-              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1584813470613-5b1c1cad3d69?q=80&w=2070" alt="Moving boxes and furniture" />
-            </div>
-            <div>
-              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?q=80&w=2070" alt="Moving furniture" />
+              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-66NaCdBrkCs?q=80&w=2070" alt="Brown cardboard boxes" />
             </div>
           </div>
           <div className="grid gap-4">
             <div>
-              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1534398079543-7ae6d016b86a?q=80&w=2070" alt="Box truck loading" />
+              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1579750083105-7e6c73597219?q=80&w=2070" alt="Chandelier installation" />
             </div>
             <div>
-              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1603696790373-1e342113b916?q=80&w=2070" alt="Furniture disassembly" />
-            </div>
-          </div>
-          <div className="grid gap-4">
-            <div>
-              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1603794067602-9feaa4f70e0c?q=80&w=2070" alt="Moving day" />
-            </div>
-            <div>
-              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1594749794737-e311e4a0a689?q=80&w=2070" alt="Moving boxes" />
+              <img className="h-auto max-w-full rounded-lg" src="https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?q=80&w=2069" alt="People moving boxes" />
             </div>
           </div>
         </div>
