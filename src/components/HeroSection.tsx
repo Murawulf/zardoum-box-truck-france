@@ -1,8 +1,7 @@
-
 import React from 'react';
 import { Phone, Truck, PackageOpen } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
-import { 
+import {
   Carousel,
   CarouselContent,
   CarouselItem,
@@ -10,20 +9,20 @@ import {
   CarouselPrevious
 } from "@/components/ui/carousel";
 
+// ✅ Local image imports (adjust path as needed)
+import img1 from '../components/1.jpg';
+import img2 from '../components/2.jpg';
+import img3 from '../components/3.jpg';
+import img4 from '../components/4.jpg';
+
 const HeroSection = () => {
   const { translate } = useLanguage();
 
-  const movingImages = [
-    "https://images.unsplash.com/photo-1584472135216-7177ff862540?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80",  // TV being wall mounted
-    "https://images.unsplash.com/photo-66NaCdBrkCs?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",  // Brown cardboard boxes
-    "https://images.unsplash.com/photo-crHhZlES310?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",  // White moving truck
-    "https://images.unsplash.com/photo-1579750083105-7e6c73597219?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",   // Chandelier installation
-    "https://images.unsplash.com/photo-6nIkztwmYMQ?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"   // Delivery man with boxes
-  ];
+  const movingImages = [img1, img2, img3, img4];
 
   return (
     <section className="relative bg-gradient-to-r from-blue-600 to-blue-800 py-20 text-white overflow-hidden">
-      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-6nIkztwmYMQ?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')] bg-cover bg-center opacity-20"></div>
+      <div className="absolute inset-0 bg-[url('../assets/1.jpg')] bg-cover bg-center opacity-20"></div>
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div>
